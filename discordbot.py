@@ -37,5 +37,4 @@ async def kick(ctx, member : discord.Member, reason=None):
 async def on_ready():
     print('Logged in as {0} ({0.id})'.format(bot.user))
     print('------')
-bot.run('ODE0MDkwMzI5ODk5NjYzMzkw.YDYysw.H4xEwpQ1Hbvy0IMw1lgE0dF1Qpo')
 bot.run(token)
